@@ -16,6 +16,7 @@ int main()
     for (m = 0; m < 5;)
     {
         printf("%s\n", names[m]);
+        free(names[m]); // Free the allocated memory
         m = m + 1;
     }
     return 0;
