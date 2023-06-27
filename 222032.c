@@ -17,27 +17,27 @@ int main()
         // For grade A
         if (avg_mark >= 75)
         {
-            printf("Your grade is A");
+            printf("Your grade is A\n");
         }
         // For grade B
         else if (avg_mark >= 65)
         {
-            printf("Your grade is B");
+            printf("Your grade is B\n");
         }
         // For grade C
         else if (avg_mark >= 55)
         {
-            printf("Your grade is C");
+            printf("Your grade is C\n");
         }
         // For grade D
         else if (avg_mark >= 35)
         {
-            printf("Your grade is D");
+            printf("Your grade is D\n");
         }
         // For grade E
         else
         {
-            printf("our grade is E");
+            printf("Your grade is E\n");
         }
         // Remove "//" line below if you want to see whether the calculation is accurate.(Means decimal point calculations are done.)
 
