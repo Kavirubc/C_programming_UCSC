@@ -32,12 +32,12 @@ int main()
         // For grade D
         else if (avg_mark >= 35)
         {
-            printf("Your grade is S");
+            printf("Your grade is D");
         }
-        // For grade FAIL
+        // For grade E
         else
         {
-            printf("Fail");
+            printf("our grade is E");
         }
         // Remove "//" line below if you want to see whether the calculation is accurate.(Means decimal point calculations are done.)
 
