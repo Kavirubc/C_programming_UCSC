@@ -10,7 +10,7 @@ int main()
     scanf("%s", str);
 
     len = strlen(str);
-
+//flag is use to find whether there are any unequal incidents
     flag = 0;
 
     for (i = 0; i < len; i++)
