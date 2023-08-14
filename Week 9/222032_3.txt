@@ -1,0 +1,24 @@
+1. #include 
+“my_header2.h”
+
+this should be a one line statement 
+
+#include “my_header2.h”
+
+2. 
+// test1.c
+
+int test_fun1() {
+printf(“This is function
+1\n”); return 0; }
+
+and 
+
+// test2.c
+
+int test_fun2() {
+printf(“This is function
+2\n”); return 0; }
+
+** Both test1 and test 2 need import header files.
+#include <stdio.h> to use printf()
