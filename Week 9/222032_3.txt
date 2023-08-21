@@ -22,3 +22,4 @@ printf(“This is function
 
 ** Both test1 and test 2 need import header files.
 #include <stdio.h> to use printf()
+
