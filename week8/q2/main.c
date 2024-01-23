@@ -1,21 +1,27 @@
+
 #include <stdio.h>
 
-int factorial(int x)
+int fibonacci(int n)
 {
-    if (x == 1)
+    if (n == 1 || n == 2)
     {
         return 1;
     }
-    else
-        for (int i = 0; i < x; i++)
-        {
-            printf("%d", factorial(x - 1));
-        }
-
-    // return x * factorial(x - 1);
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main()
 {
-    printf(" %d\n ", factorial(5));
+    int n, i;
+
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci sequence: ");
+    for (i = 1; i <= n; i++)
+    {
+        printf("%d ", fibonacci(i));
+    }
+
+    return 0;
 }
