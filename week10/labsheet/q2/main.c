@@ -7,7 +7,7 @@ int main()
     TreeNode *root = NULL;
 
     // Inserting books into the inventory
-    root = insertBook(root, 12345678, 5);
+    root = insertBook(root, 83847382, 5);
     root = insertBook(root, 23456789, 3);
     root = insertBook(root, 34567890, 8);
     root = insertBook(root, 45678901, 2);
